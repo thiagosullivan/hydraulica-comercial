@@ -1,0 +1,34 @@
+.categories-list {
+  background-color: #002A5B;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+}
+.categories-link {
+  text-decoration: none;
+}
+
+.categories-list-content {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.categories-list-content a {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 150ms ease-in;
+}
+
+.categories-list-content a:hover {
+  color: #FD8400;
+}
+
+.categories-list-content img {
+  margin-bottom: 10px;
+}

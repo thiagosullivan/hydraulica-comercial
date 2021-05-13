@@ -1,23 +1,56 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import Home from './pages/Home';
+import Fornecedores from './pages/Fornecedores';
+import Produtos from './pages/Produtos';
+import SobreNos from './pages/SobreNos';
+import Contato from './pages/Contato';
+import Lojas from './pages/Lojas';
+
+import Hidraulica from './pages/Hidraulica';
+import Eletrica from './pages/Eletrica';
+import Epi from './pages/Epi';
+import Ferragens from './pages/Ferragens';
+import Ferramentas from './pages/Ferramentas';
+import Pintura from './pages/Pintura';
+
+import Nav from './components/Nav/Nav';
+import TopHead from './components/TopHeade/TopHead';
+import Categories from './components/Categories/Categories';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <header>
+          <TopHead />
+          <Nav />
+          <Categories />
+        </header>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/Produtos" component={Produtos} />
+          <Route path="/Fornecedores" component={Fornecedores} />
+          <Route path="/SobreNos" component={SobreNos} />
+          <Route path="/Contato" component={Contato} />
+          <Route path="/Lojas" component={Lojas} />
+        </Switch>
+        <Switch>
+          <Route path="/hidraulica" component={Hidraulica} />
+          <Route path="/eletrica" component={Eletrica} />
+          <Route path="/epi" component={Epi} />
+          <Route path="/ferragens" component={Ferragens} />
+          <Route path="/ferramentas" component={Ferramentas} />
+          <Route path="/pintura" component={Pintura} />
+        </Switch>
+        <footer>
+          <Footer />
+        </footer>
+      </Router>
     </div>
   );
 }

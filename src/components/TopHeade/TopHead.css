@@ -1,0 +1,33 @@
+.tophead {
+  background-color: #F1F1F1;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 1rem;
+}
+.top-head-content {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-head-content button {
+  color: #FFFFFF;
+  background-color: #002A5B;
+  border: none;
+  padding: .5em 2em;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.top-head-content ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.topHead-socialmedia {
+  font-size: 2rem;
+  color: #002A5B;
+}
+.topHead-socialmedia:nth-child(1) {
+  margin-right: 10px;
+}
