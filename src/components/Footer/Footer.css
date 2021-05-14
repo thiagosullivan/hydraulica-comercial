@@ -100,6 +100,20 @@
   color: #FFFFFF;
   margin-right: 1rem;
 }
+.footer-bottom {
+  background-color: #414141;
+  color: #FFFFFF;
+  text-align: center;
+  padding: .5rem 0
+}
+.footer-bottom a {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: color 150ms ease-in;
+}
+.footer-bottom a:hover {
+  color: #FD8400;
+}
 
 @media screen and (max-width: 980px) {
   .footer-top-content h3 {

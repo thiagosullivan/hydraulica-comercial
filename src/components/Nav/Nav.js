@@ -46,7 +46,7 @@ function Nav() {
           </Link>
           <Link
             style={{ textDecoration: 'none' }}
-            to='./sobrenos'
+            to='./sobre_nos'
           >
           <li>Sobre Nós</li>
           </Link>

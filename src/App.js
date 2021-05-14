@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Fornecedores from './pages/Fornecedores';
 import Produtos from './pages/Produtos';
-import SobreNos from './pages/SobreNos';
+import Sobre_Nos from './pages/Sobre_Nos';
 import Contato from './pages/Contato';
 import Lojas from './pages/Lojas';
 
@@ -35,7 +35,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/Produtos" component={Produtos} />
           <Route path="/Fornecedores" component={Fornecedores} />
-          <Route path="/SobreNos" component={SobreNos} />
+          <Route path="/Sobre_Nos" component={Sobre_Nos} />
           <Route path="/Contato" component={Contato} />
           <Route path="/Lojas" component={Lojas} />
         </Switch>

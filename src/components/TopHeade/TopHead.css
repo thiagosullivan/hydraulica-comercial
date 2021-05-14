@@ -27,6 +27,10 @@
 .topHead-socialmedia {
   font-size: 2rem;
   color: #002A5B;
+  transition: color 150ms ease-in;
+}
+.topHead-socialmedia:hover {
+  color: #FD8400;
 }
 .topHead-socialmedia:nth-child(1) {
   margin-right: 10px;

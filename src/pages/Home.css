@@ -1,0 +1,61 @@
+/* ruler */
+.ruler-icons {
+  background-color: #002A5B;
+  display: flex;
+  justify-content: center;
+}
+.ruler-col {
+  color: #FFFFFF;
+  padding: 4rem 2rem;
+  text-align: center;
+  max-width: 350px;
+}
+.ruler-col svg {
+  font-size: 3rem;
+}
+
+/* section categories */
+.section-categories {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+.section-categories-cards {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  padding: 3rem 0;
+}
+.section-categories-cards a {
+  max-width: 300px;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-categories-cards a:hover {
+  box-shadow: 0 5px 10px rgba(0,0,0,.5);
+}
+.section-categories-cards span {
+  color: #414141;
+  font-size: 20px;
+  font-weight: bold;
+  margin: .5rem 0;
+}
+.section-categories-cards p {
+  color: #717171;
+  text-align: justify;
+}
+.section-categories h2 {
+  font-size: 50px;
+  color: #002A5B;
+  margin: 0 auto;
+}
+.section-categories h4 {
+  color: #002A5B;
+  font-size: 25px;
+  margin-top: 1rem;
+  font-weight: 500;
+}
