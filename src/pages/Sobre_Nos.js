@@ -6,7 +6,6 @@ import SrNilsonLucas from '../assets/sr-nilson-lucas.jpg';
 import HumbertoJeronymo from '../assets/humberto-jeronymo.jpg';
 import NilsonFilho from '../assets/nilson-filho.jpg';
 
-
 function SobreNos() {
   return (
     <div className="page-about">

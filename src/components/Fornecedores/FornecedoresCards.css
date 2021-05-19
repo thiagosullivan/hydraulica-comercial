@@ -1,0 +1,32 @@
+.fornecedores-card {
+  max-width: 250px;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.fornecedores-card  .card-image {
+  height: 180px;
+  display: flex;
+  align-items: center;
+}
+.fornecedores-card h3 {
+  margin: 1rem 0;
+  text-align: center;
+  min-height: 55px;
+  color: #414141;
+}
+.fornecedores-card p {
+  text-align: justify;
+  color: #414141;
+}
+
+.fornecedores-card a {
+  text-decoration: none;
+  text-align: center;
+  padding-top: 1rem;
+  width: 100%;
+  color: #FD8400;
+}
+.fornecedores-card a:hover {
+  color: #002A5B;
+}

@@ -1,0 +1,57 @@
+.about-section-home {
+  background-image: url(../../assets/sec-5-about-bg.jpg);
+}
+.about-section-content {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+.about-section-home h2 {
+  color: #FD8400;
+  font-size: 40px;
+}
+.about-section-home span {
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.about-section-home p {
+  color: #414141;
+  margin-bottom: 2rem;
+}
+.about-section-button {
+  background-color: #002A5B;
+  color: #FD8400;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  transition: all 150ms ease-in;
+}
+.about-section-button:hover {
+  background-color: #FD8400;
+  color: #002A5B;
+}
+.about-section-content {
+  display: flex;
+  align-items: center;
+  padding: 2rem 1rem;  
+}
+.about-section-content img {
+  max-width: 450px;
+  width: 100%;
+}
+.about-section-txt {
+  margin-right: 3rem;
+}
+
+/* media queries */
+@media screen and (max-width: 980px){
+    .about-section-content {
+        flex-direction: column;
+    }
+    .about-section-txt {
+        margin-right: 0;
+        text-align: center;
+    }
+}

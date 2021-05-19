@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 import './Categories.css';
 
-import hidraulicaIcon from '../../assets/category-hidraulica.png';
-import eletricaIcon from '../../assets/category-eletrica.png';
-import epiIcon from '../../assets/category-epi.png';
-import ferragensIcon from '../../assets/category-ferragens.png';
-import ferramentasIcon from '../../assets/category-ferramentas.png';
-import pinturaIcon from '../../assets/category-pintura.png';
+import hidraulicaIcon from '../../assets/categorymenu/category-hidraulica.png';
+import eletricaIcon from '../../assets/categorymenu/category-eletrica.png';
+import epiIcon from '../../assets/categorymenu/category-epi.png';
+import ferragensIcon from '../../assets/categorymenu/category-ferragens.png';
+import ferramentasIcon from '../../assets/categorymenu/category-ferramentas.png';
+import pinturaIcon from '../../assets/categorymenu/category-pintura.png';
 
 function Categories(){
   return (

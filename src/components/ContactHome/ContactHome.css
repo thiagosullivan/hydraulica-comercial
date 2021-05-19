@@ -1,0 +1,108 @@
+.contact-home-section {
+  background: url(../../assets/contact-section-bg.jpg) no-repeat;
+  background-size: cover;
+}
+.contact-home-content {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+.contact-home-col1 {
+  border: 3px solid #FD8400;
+  background-color: rgba(0,42,91, .85);
+}
+.contact-home-col1 h2 {
+  color: #FD8400;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.contact-home-col1 {
+  display: grid;
+  grid-template-areas:
+      "contacttitle contactimg"
+      "contacttxt contacttxt";
+  padding: 2rem;
+  justify-items: center;
+  align-items: center;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 150px;
+  max-width: 55%;
+}
+.contact-home-col1 h2 {
+  grid-area: contacttitle;
+}
+.contact-home-col1 svg {
+  grid-area: contactimg;
+  font-size: 5rem;
+}
+.contact-home-col1 p {
+  grid-area: contacttxt;
+  color: #FFFFFF;
+  max-width: 80%;
+  margin-top: 2rem;
+}
+.contact-home-col2 {
+  border: 3px solid #002A5B;
+  background-color: #FD8400;
+}
+.contact-home-col2 {
+  padding: 2rem 3rem;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-wp-number svg {
+  font-size: 4rem;
+}
+.contact-wp-number {
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.contact-home-col2 a {
+  background-color: #002A5B;
+  border: 2px solid transparent;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: .5rem 2rem;
+  border-radius: 5px;
+  transition: all 150ms ease-in;
+}
+.contact-home-col2 a:hover {
+  background-color: #FFFFFF;
+  border: 2px solid #002A5B;
+  color: #002A5B;
+}
+
+/* media queries */
+@media screen and (max-width: 980px){
+  .contact-home-content {
+      flex-direction: column;
+  }
+  .contact-home-col1 {
+      margin-bottom: 2rem;
+      max-width: 80%;
+  }
+}
+@media screen and (max-width: 610px){
+  .contact-home-col1 {
+      grid-template-areas:
+      "contactimg"
+      "contacttitle"
+      "contacttxt";
+      border-top-left-radius: 100px;
+      border-bottom-right-radius: 100px;
+  }
+}
+
+

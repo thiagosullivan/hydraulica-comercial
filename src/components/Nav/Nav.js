@@ -10,7 +10,12 @@ function Nav() {
     <nav>
       <div className="nav-top">
         <div className="nav-top-content">
-          <img src={Logo} alt="Hydraulica Comercial" className="header-logo" />
+        <Link 
+            style={{ textDecoration: 'none' }} 
+            to='./'
+          >
+            <img src={Logo} alt="Hydraulica Comercial" className="header-logo" />
+          </Link>          
           <input type="text" />
           <div className="nav-contact">
             <div className="nav-contact-info">

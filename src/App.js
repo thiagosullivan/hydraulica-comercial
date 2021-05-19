@@ -18,7 +18,7 @@ import Pintura from './pages/Pintura';
 
 import Nav from './components/Nav/Nav';
 import TopHead from './components/TopHeade/TopHead';
-import Categories from './components/Categories/Categories';
+import MenuCategories from './components/MenuCategories/Categories';
 import Footer from './components/Footer/Footer';
 
 
@@ -29,7 +29,7 @@ function App() {
         <header>
           <TopHead />
           <Nav />
-          <Categories />
+          <MenuCategories />
         </header>
         <Switch>
           <Route path="/" exact component={Home} />

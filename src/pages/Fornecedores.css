@@ -1,0 +1,22 @@
+.fornecedores-page {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+.fornecedores-page h1 {
+  color: #FD8400;
+  font-size: 50px;
+  text-align: center;
+}
+.fornecedores-page h4 {
+  color: #414141;
+  font-size: 20px;
+  text-align: center;
+}
+.fornecedores-content {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin-top: 3rem;
+}
