@@ -120,14 +120,14 @@ function Footer() {
             <div className="ft-contact">
               <h3>Contato</h3>
               <div className="ft-wp-container">
-                <a href="https://web.whatsapp.com/send?phone=5599111112222" target="_blank" rel="noreferrer" className="ft-wp-number">
+                <a href="https://web.whatsapp.com/send?phone=55439926-9120" target="_blank" rel="noreferrer" className="ft-wp-number">
                   <RiWhatsappFill />
-                  <p>WhatsApp 1:<br></br>
-                    (43) 99999-9999</p>
+                  <p>Administrativo:<br></br>
+                    (43) 9926-9120</p>
                 </a>
                 <a href="https://web.whatsapp.com/send?phone=554391699838" target="_blank" rel="noreferrer" className="ft-wp-number">
                   <RiWhatsappFill />
-                  <p>WhatsApp 2:<br></br>
+                  <p>Comercial:<br></br>
                     (43) 9169-9838</p>
                 </a>
               </div>

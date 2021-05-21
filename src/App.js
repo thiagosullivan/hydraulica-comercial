@@ -21,7 +21,6 @@ import TopHead from './components/TopHeade/TopHead';
 import MenuCategories from './components/MenuCategories/Categories';
 import Footer from './components/Footer/Footer';
 
-
 function App() {
   return (
     <div className="App">

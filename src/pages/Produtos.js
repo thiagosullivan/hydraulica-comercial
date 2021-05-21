@@ -1,12 +1,11 @@
 import React from 'react';
-import ProductList from '../Api/Api';
 import '../App.css';
 
 function Produtos() {
 
   return (
     <div>
-      <ProductList />
+      <h1>Produtos</h1>
     </div>
   );
 }

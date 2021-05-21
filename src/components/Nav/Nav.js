@@ -2,8 +2,8 @@ import React from 'react';
 import './Nav.css';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/hydraulica-comercial-logo.png';
-import { FaFax } from 'react-icons/fa';
 import { RiWhatsappFill } from 'react-icons/ri';
+import SearchBar from '../SearchBar/SearchBar';
 
 function Nav() {
   return (
@@ -16,15 +16,19 @@ function Nav() {
           >
             <img src={Logo} alt="Hydraulica Comercial" className="header-logo" />
           </Link>          
-          <input type="text" />
+          <SearchBar />
           <div className="nav-contact">
             <div className="nav-contact-info">
-              <FaFax className="nav-contact-icon" />
-              <p>Fax:<br></br>(43) 9999-9999</p>
+              <a href="https://web.whatsapp.com/send?phone=554399269120" target="_blank" rel="noreferrer" className="ft-wp-number">
+                <RiWhatsappFill className="nav-contact-icon" />
+                <p>Administrativo:<br></br>(43) 9926-9120</p>
+              </a>
             </div>
             <div className="nav-contact-info">
-              <RiWhatsappFill className="nav-contact-icon" />
-              <p>Fax:<br></br>(43) 9999-9999</p>
+              <a href="https://web.whatsapp.com/send?phone=554391699838" target="_blank" rel="noreferrer" className="ft-wp-number">
+                <RiWhatsappFill className="nav-contact-icon" />
+                <p>Comercial:<br></br>(43) 9169-9838</p>
+              </a>
             </div>   
           </div>
         </div>
