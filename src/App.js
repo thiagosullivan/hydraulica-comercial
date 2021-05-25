@@ -9,12 +9,12 @@ import Sobre_Nos from './pages/Sobre_Nos';
 import Contato from './pages/Contato';
 import Lojas from './pages/Lojas';
 
-import Hidraulica from './pages/Hidraulica';
-import Eletrica from './pages/Eletrica';
-import Epi from './pages/Epi';
-import Ferragens from './pages/Ferragens';
-import Ferramentas from './pages/Ferramentas';
-import Pintura from './pages/Pintura';
+import Hidraulica from './pages/products/Hidraulica';
+import Eletrica from './pages/products/Eletrica';
+import Epi from './pages/products/Epi';
+import Ferragens from './pages/products/Ferragens';
+import Ferramentas from './pages/products/Ferramentas';
+import Pintura from './pages/products/Pintura';
 
 import Nav from './components/Nav/Nav';
 import TopHead from './components/TopHeade/TopHead';

@@ -3,18 +3,11 @@ import axios from 'axios';
 
 function Hidraulica() {
   const [ hidraulicos, setHidraulicos ] = useState([]);
-  const [categories, setCategories ] = useState([]);
 
   const loadProducts = async() => {
     const response = await axios.get('https://thiagosguiase.github.io/hydraulica-comercial-api/Data/api.json');
-    setHidraulicos(response.data.produtos)
-    console.log(response.data.produtos)
-  }
-
-    loadProducts.filter((produtos) => {
-      return produtos.categoria.descricao === 'hidraulica';
-    })  
-  
+      setHidraulicos(response.data.produtos)
+    }
   useEffect(() => {
     loadProducts();
   }, [])
@@ -26,15 +19,17 @@ function Hidraulica() {
       
       <div className="hidraulica-prod-container">
         <h2>Veja alguns dos nossos destaques</h2>
-        <div className="hidraulica-prod-container">
+        <div className="hidraulica-prod-content">
           
-            {hidraulicos.map((produtos) => (
-              <div key={produtos.produto.id} className="hidraulica-pro-card">
-                <img src={produtos.produto.imageThumbnail} alt="" />   
-                <h4>{produtos.produto.descricao}</h4>
-                <span>Marca: {produtos.produto.marca}</span>
+            {hidraulicos
+              .filter((product) => product.produto.categoria.descricao === "Hidraulica")
+              .map((produtosFiltrados) => (
+              <div key={produtosFiltrados.produto.id} className="hidraulica-pro-card">
+                <img src={produtosFiltrados.produto.imageThumbnail} alt="" />   
+                <h4>{produtosFiltrados.produto.descricao}</h4>
+                <span>Marca: {produtosFiltrados.produto.marca}</span>
               </div>
-            ))}          
+            ))}
         </div>
       </div>
     </div>
