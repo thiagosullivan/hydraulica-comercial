@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import ScrollToTop from './config/ScrollToTop';
 
 import Home from './pages/Home';
 import Fornecedores from './pages/Fornecedores';
@@ -17,7 +18,7 @@ import Ferramentas from './pages/products/Ferramentas';
 import Pintura from './pages/products/Pintura';
 
 import Nav from './components/Nav/Nav';
-import TopHead from './components/TopHeade/TopHead';
+import TopHead from './components/TopHead/TopHead';
 import MenuCategories from './components/MenuCategories/Categories';
 import Footer from './components/Footer/Footer';
 
@@ -25,6 +26,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <header>
           <TopHead />
           <Nav />

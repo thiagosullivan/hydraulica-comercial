@@ -1,0 +1,155 @@
+.pageprod-page {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.pageprod-prod-container {
+  margin-top: 4rem;
+}
+.pageprod-page h1 {
+  color: #002A5B;
+  font-size: 60px;
+  margin: 1rem 0;
+}
+.pageprod-page p {
+  color: #002A5B;
+}
+.pageprod-prod-container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #FF9E30;
+  margin-bottom: 2rem;
+}
+.pageprod-prod-content {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  border-top: 1px solid #FF9E30;
+  border-bottom: 1px solid #FF9E30;
+  background-color: #F9F9F9;
+  padding: 3rem 20px;
+}
+.pageprod-pro-card {
+  max-width: 280px;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #FFFFFF;
+}
+.pageprod-pro-card img {
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+.pageprod-pro-card h4 {
+  height: 48px;
+  color: #414141;
+  text-align: center;
+}
+.pageprod-pro-card span {
+  font-size: 14px;
+  color: #414141;
+  margin: 1rem 0;
+}
+.pageprod-prod-container .pageprod-pro-card p {
+  color: #717171;
+  text-align: justify;
+}
+
+/* lojas section */
+.lojas-container {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.lojas-container h2 {
+  font-size: 2.5rem;
+  color: #002A5B;
+  margin-bottom: 1rem;
+}
+
+.lojas-container p {
+  font-size: 1.56rem;
+  margin-bottom: 2rem;
+}
+.lojas-container-links {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+.sou-lojista, .sou-profissional {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.lojas-container-links a {
+  text-decoration: none;
+}
+.sou-lojista a {
+  width: 300px;
+  padding: .5rem 0;
+  background-color: #FF9E30;
+  font-size: 1.56rem;
+  color: #002A5B;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 100ms ease-in;
+}
+.sou-lojista svg {
+  font-size: 5rem;
+  color: #002A5B;
+}
+.sou-profissional a {
+  width: 300px;
+  padding: .5rem 0;
+  background-color: #002A5B;
+  font-size: 1.56rem;
+  color: #FF9E30;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 100ms ease-in;
+}
+.sou-profissional svg {
+  font-size: 5rem;
+  color: #002A5B;
+}
+.sou-lojista a:hover {
+  background-color: transparent;
+  border: 2px solid #FF9E30;
+  color: #FF9E30;
+  box-shadow: 0 0px 10px rgba(0,0,0,.5);
+  transform: scale(1.05);
+}
+.sou-profissional a:hover {
+  background-color: transparent;
+  border: 2px solid #FF9E30;
+  color: #FF9E30;
+  box-shadow: 0 0px 10px rgba(0,0,0,.5);
+  transform: scale(1.05);
+}
+.sou-lojista a:hover + svg {
+  color: #FF9E30;
+}
+.sou-profissional a:hover + svg {
+  color: #FF9E30;
+}
+
+@media screen and (max-width: 980px){
+  .pageprod-page h1 {
+    text-align: center;    
+    margin: 1rem auto;
+  }
+  .pageprod-page p {
+    text-align: justify;
+  }
+  .lojas-container p {
+    text-align: center;
+  }
+}

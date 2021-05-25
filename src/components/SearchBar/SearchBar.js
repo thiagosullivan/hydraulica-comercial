@@ -56,11 +56,11 @@ function SearchBar(){
           onChange={e => onChangeHandler(e.target.value)}
           value={text}
           placeholder="Pesquise aqui..."
-          // onBlur={() => {
-          //   setTimeout(() => {
-          //     setSuggestions([])
-          //   }, 500);
-          // }}
+          onBlur={() => {
+            setTimeout(() => {
+              setSuggestions([])
+            }, 500);
+          }}
         />
         <BiSearchAlt2 />
       </div>
