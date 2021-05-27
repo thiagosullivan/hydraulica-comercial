@@ -17,8 +17,8 @@ function Eletrica() {
 
   return (
     <div className="pageprod-page">
-      <h1>Eletrica</h1>
-      <p>Pensando em oferecer variedade de soluções trabalhamos com diferentes segmentos de conexões e materiais hidráulicos. Para construção ou reforma na Hydraulica Comercial você encontra produtos para a instalação de água, esgoto e áreas externas. Em reposições e acabamentos trabalhamos com torneiras, reparos, assentos sanitários e muito mais.</p>
+      <h1>Elétrica</h1>
+      <p>A linha elétrica é parte importante do seu negócio, sabemos disso, e para ajudar com as melhores condições buscamos as melhores parcerias do seguimento. Destacamos em nossa linha de produtos para estrutura básica as caixas de luz, abraçadeiras de nylon, conduítes, etc...</p>
       
       <div className="pageprod-prod-container">
         <h2>Veja alguns dos nossos destaques</h2>

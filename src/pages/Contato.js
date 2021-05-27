@@ -4,7 +4,7 @@ import '../App.css';
 function Contato() {
   return (
     <div>
-      <h1>Contato Page</h1>
+      <h1 className="pagesconfig pages-title">Contato Page</h1>
     </div>
   );
 }

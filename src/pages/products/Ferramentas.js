@@ -18,7 +18,7 @@ function Ferramentas() {
   return (
     <div className="pageprod-page">
       <h1>Ferramentas</h1>
-      <p>Pensando em oferecer variedade de soluções trabalhamos com diferentes segmentos de conexões e materiais hidráulicos. Para construção ou reforma na Hydraulica Comercial você encontra produtos para a instalação de água, esgoto e áreas externas. Em reposições e acabamentos trabalhamos com torneiras, reparos, assentos sanitários e muito mais.</p>
+      <p>Sem as ferramentas tudo seria muito mais difícil na construção. Buscamos as ferramentas manuais de maior utilidade e valor agregado. Nossa linha passa por colher de pedreiro, trena, caixa de ferramentas, pá, peneira, pistolas para aplicação de silicone e muito mais.</p>
       
       <div className="pageprod-prod-container">
         <h2>Veja alguns dos nossos destaques</h2>

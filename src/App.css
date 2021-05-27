@@ -2,3 +2,28 @@
   font-family: 'Oswald', sans-serif;
   letter-spacing: 0.5px;
 }
+.pagesconfig {
+  max-width: 1300px;
+  width: 100%;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+.pages-title {
+  font-size: 3.75rem;
+  text-align: center;
+  color: #FF9E30;
+  margin-bottom: 3rem;
+}
+
+#mobile {
+  display: none;
+}
+
+@media screen and (max-width: 980px){
+  #desktop {
+    display: none;
+  }
+  #mobile {
+    display: block;
+  }
+}

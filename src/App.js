@@ -27,7 +27,12 @@ function App() {
     <div className="App">
       <Router>
         <ScrollToTop />
-        <header>
+        <header id="desktop">
+          <TopHead />
+          <Nav />
+          <MenuCategories />
+        </header>
+        <header id="mobile">
           <TopHead />
           <Nav />
           <MenuCategories />

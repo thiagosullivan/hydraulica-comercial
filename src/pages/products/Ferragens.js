@@ -18,12 +18,11 @@ function Ferragens() {
   return (
     <div className="pageprod-page">
       <h1>Ferragens</h1>
-      <p>Pensando em oferecer variedade de soluções trabalhamos com diferentes segmentos de conexões e materiais hidráulicos. Para construção ou reforma na Hydraulica Comercial você encontra produtos para a instalação de água, esgoto e áreas externas. Em reposições e acabamentos trabalhamos com torneiras, reparos, assentos sanitários e muito mais.</p>
+      <p>As ferragens são itens importantes do seguimento de construção civil. Não recebem o destaque dos produtos de acabamento, mas são responsáveis por garantir qualidade e segurança nas obras. Nossa linha passa por abraçadeiras, dobradiças, fechaduras, correntes, cantoneiras e muito mais.</p>
       
       <div className="pageprod-prod-container">
         <h2>Veja alguns dos nossos destaques</h2>
         <div className="pageprod-prod-content">
-          
             {ferragens
               .filter((product) => product.produto.categoria.descricao === "Ferragens")
               .map((produtosFiltrados) => (

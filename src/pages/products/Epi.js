@@ -17,8 +17,8 @@ function Epi() {
 
   return (
     <div className="pageprod-page">
-      <h1>Epi</h1>
-      <p>Pensando em oferecer variedade de soluções trabalhamos com diferentes segmentos de conexões e materiais hidráulicos. Para construção ou reforma na Hydraulica Comercial você encontra produtos para a instalação de água, esgoto e áreas externas. Em reposições e acabamentos trabalhamos com torneiras, reparos, assentos sanitários e muito mais.</p>
+      <h1>EPI</h1>
+      <p>Trabalhar com segurança e responsabilidade é parte primordial para sucesso de qualquer empresa ou profissional. Trazemos itens importantes de equipamentos de proteção individual. Confira os itens disponíveis clicando na categoria EPI's no menu superior do site.</p>
       
       <div className="pageprod-prod-container">
         <h2>Veja alguns dos nossos destaques</h2>

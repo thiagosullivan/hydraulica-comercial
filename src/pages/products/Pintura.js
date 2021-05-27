@@ -18,8 +18,7 @@ function Pintura() {
   return (
     <div className="pageprod-page">
       <h1>Pintura</h1>
-      <p>Pensando em oferecer variedade de soluções trabalhamos com diferentes segmentos de conexões e materiais hidráulicos. Para construção ou reforma na Hydraulica Comercial você encontra produtos para a instalação de água, esgoto e áreas externas. Em reposições e acabamentos trabalhamos com torneiras, reparos, assentos sanitários e muito mais.</p>
-      
+      <p>Para destacar as construções o acabamento é parte importante, mas a pintura é quem ganha toda atenção de longe no ambiente. Trazemos em nossa linha de produtos os melhores rolos para pintura, fita crepe, espátulas, escova de aço e muito mais.</p>
       <div className="pageprod-prod-container">
         <h2>Veja alguns dos nossos destaques</h2>
         <div className="pageprod-prod-content">

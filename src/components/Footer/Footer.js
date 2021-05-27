@@ -16,7 +16,7 @@ function Footer() {
         <div className="footer-top-content">
           <div className="footer-top-col1">
             <img src={LogoFooterWhite} className="ft-logo" alt="Hydraulica Comercial" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed dui lacinia, vestibulum tellus sed, elementum velit. Etiam vitae hendrerit sem, nec viverra mauris. Nullam ultricies condimentum mi in rutrum.</p>
+            <p>A Hydraulica Comercial, distribuidora de produtos hidráulicos e de materiais para construção em geral, nasceu da união de empreendedores que acumulam 31 anos de experiência neste seguimento.</p>
           </div>
           <div className="footer-top-col2">
             <h3>Nosso Site</h3>
@@ -41,7 +41,7 @@ function Footer() {
                 </Link>
                 <Link 
                   style={{ textDecoration: 'none' }} 
-                  to='./sobrenos'
+                  to='./sobre_nos'
                 >
                   <li>Sobre Nós</li>                
                 </Link>
@@ -94,7 +94,7 @@ function Footer() {
                 </Link>
                 <Link 
                   style={{ textDecoration: 'none' }} 
-                  to='./pinturas'
+                  to='./pintura'
                 >
                   <li>Pintura</li>
                 </Link>

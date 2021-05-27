@@ -1,12 +1,12 @@
 import React from 'react';
 import './CategoriesSection.css';
 
-import Hidraulica from '../../assets/hidraulica-orange.png';
-import Eletrica from '../../assets/eletrica-orange.png';
-import Epi from '../../assets/epi-orange.png';
-import Ferragens from '../../assets/ferragens-orange.png';
-import Pintura from '../../assets/pintura-orange.png';
-import Ferramentas from '../../assets/ferramentas-orange.png';
+import Hidraulica from '../../assets/icons-home/hidraulica-orange.png';
+import Eletrica from '../../assets/icons-home/eletrica-orange.png';
+import Epi from '../../assets/icons-home/epi-orange.png';
+import Ferragens from '../../assets/icons-home/ferragens-orange.png';
+import Pintura from '../../assets/icons-home/pintura-orange.png';
+import Ferramentas from '../../assets/icons-home/ferramentas-orange.png';
 
 import { Link } from 'react-router-dom';
 
