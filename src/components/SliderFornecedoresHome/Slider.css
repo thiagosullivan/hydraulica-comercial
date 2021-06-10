@@ -1,0 +1,47 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slick-initialized .slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+.arrow.prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: #FD8400;
+  z-index: 9;
+}
+.arrow.next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: #FD8400;
+}
+.arrow.next:active,
+.arrow.prev:active {
+  color: #002A5B;
+}
+.slick-dots {
+  bottom: 10px;
+}
+.slick-slider {
+  padding: 2rem 0;
+  position: relative;
+}
+.slick-dots li button:before {
+  color: #002A5B;
+}
+.slick-dots li.slick-active button:before
+{
+  opacity: .75;
+  color: #FD8400;
+}

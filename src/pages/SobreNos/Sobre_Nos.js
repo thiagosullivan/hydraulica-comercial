@@ -1,10 +1,10 @@
 import React from 'react';
 import './Sobre_Nos.css';
 
-import ImageAbout1 from '../assets/page-about-img1.jpg';
-import SrNilsonLucas from '../assets/about-us/sr-nilson-lucas.jpg';
-import HumbertoJeronymo from '../assets/about-us/humberto-jeronymo.jpg';
-import NilsonFilho from '../assets/about-us/nilson-filho.jpg';
+import ImageAbout1 from '../../assets/page-about-img1.jpg';
+import SrNilsonLucas from '../../assets/about-us/sr-nilson-lucas.jpg';
+import HumbertoJeronymo from '../../assets/about-us/humberto-jeronymo.jpg';
+import NilsonFilho from '../../assets/about-us/nilson-filho.jpg';
 
 function SobreNos() {
   return (

@@ -1,6 +1,12 @@
 {
   "name": "hydraulica-comercial-web",
   "version": "0.1.0",
+  "homepage": "https://www.hydraulica.com.br/",
+  "author": {
+    "name": "Thiago Santos",
+    "email": "thiago.sullivan.dev@gmail.com",
+    "url": "https://github.com/thiagosullivan"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -13,7 +19,8 @@
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "swiper": "^6.6.1",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

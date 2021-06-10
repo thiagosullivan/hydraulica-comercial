@@ -1,0 +1,12 @@
+.mobile-section-categories {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.mobile-section-categories a {
+  color: #FFFFFF;
+}
+.mobile-section-categories a {
+  color: #FFFFFF;
+  margin: 1.5rem 0;
+}

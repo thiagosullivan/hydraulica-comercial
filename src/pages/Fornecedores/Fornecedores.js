@@ -1,7 +1,7 @@
 import React from 'react';
-import './Fornecedores.css';
-import FornecedoresCard from '../components/Fornecedores/FornecedoresCards';
 
+import './Fornecedores.css';
+import FornecedoresCard from '../../components/Fornecedores/FornecedoresCards';
 
 function Fornecedores() {
   return (

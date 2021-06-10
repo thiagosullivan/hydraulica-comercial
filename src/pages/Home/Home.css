@@ -1,25 +1,9 @@
-/* ruler */
-.ruler-icons {
-  background-color: #002A5B;
-  display: flex;
-  justify-content: center;
-}
-.ruler-col {
-  color: #FFFFFF;
-  padding: 4rem 2rem;
-  text-align: center;
-  max-width: 350px;
-}
-.ruler-col svg {
-  font-size: 3rem;
-}
-
 /* section categories */
 .section-categories {
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 3rem 1rem;
 }
 .section-categories-cards {
   display: flex;
@@ -58,4 +42,18 @@
   font-size: 25px;
   margin-top: 1rem;
   font-weight: 500;
+}
+@media screen and (max-width: 600px){
+  .ruler-col {
+    padding: 1rem;
+    max-width: 200px;
+  }
+}
+@media screen and (max-width: 480px){
+  .ruler-icons {
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+  }
+
 }

@@ -2,15 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Produtos.css';
 
-import prodHidraulica from '../assets/pageproducts/prod-page-hidraulica.jpg';
-import prodEletrica from '../assets/pageproducts/prod-page-eletrica.jpg';
-import prodEpi from '../assets/pageproducts/prod-page-epi.jpg';
-import prodFerragens from '../assets/pageproducts/prod-page-ferragens.jpg';
-import prodFerramentas from '../assets/pageproducts/prod-page-ferramentas.jpg';
-import prodPintura from '../assets/pageproducts/prod-page-pintura.jpg';
+import prodHidraulica from '../../assets/pageproducts/prod-page-hidraulica.jpg';
+import prodEletrica from '../../assets/pageproducts/prod-page-eletrica.jpg';
+import prodEpi from '../../assets/pageproducts/prod-page-epi.jpg';
+import prodFerragens from '../../assets/pageproducts/prod-page-ferragens.jpg';
+import prodFerramentas from '../../assets/pageproducts/prod-page-ferramentas.jpg';
+import prodPintura from '../../assets/pageproducts/prod-page-pintura.jpg';
 
 function Produtos() {
-  
   return (
     <div className="pagesconfig product-pages">
       <h1 className="pages-title">Nossos Produtos</h1>

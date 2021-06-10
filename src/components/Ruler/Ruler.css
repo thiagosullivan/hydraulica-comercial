@@ -1,0 +1,28 @@
+/* ruler */
+.ruler-section {
+  background-color: #002A5B;
+}
+.ruler-icons {
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.ruler-col {
+  color: #FFFFFF;
+  padding: 4rem 2rem;
+  text-align: center;
+  max-width: 350px;
+  width: 100%;
+}
+.ruler-col svg {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 620px){
+  .ruler-icons {
+    flex-flow: wrap;
+  }
+}

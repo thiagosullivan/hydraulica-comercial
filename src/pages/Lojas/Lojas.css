@@ -48,6 +48,16 @@
 .store-option img {
   margin: 2rem 0;
 }
+.store-option a {
+  color: #002A5B;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.store-option a:hover {
+    color: #FF9E30;
+}
 
 /*media queries*/
 

@@ -3,12 +3,13 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollToTop from './config/ScrollToTop';
 
-import Home from './pages/Home';
-import Fornecedores from './pages/Fornecedores';
-import Produtos from './pages/Produtos';
-import Sobre_Nos from './pages/Sobre_Nos';
-import Contato from './pages/Contato';
-import Lojas from './pages/Lojas';
+import Home from './pages/Home/Home';
+import Fornecedores from './pages/Fornecedores/Fornecedores';
+import Produtos from './pages/Produtos/Produtos';
+import Sobre_Nos from './pages/SobreNos/Sobre_Nos';
+import Contato from './pages/Contato/Contato';
+import Lojas from './pages/Lojas/Lojas';
+import Obrigado from './pages/Obrigado/Obrigado';
 
 import Hidraulica from './pages/products/Hidraulica';
 import Eletrica from './pages/products/Eletrica';
@@ -21,6 +22,8 @@ import Nav from './components/Nav/Nav';
 import TopHead from './components/TopHead/TopHead';
 import MenuCategories from './components/MenuCategories/Categories';
 import Footer from './components/Footer/Footer';
+import HeaderMobile from './components/HeaderMobile/HeaderMobile';
+import SearchBar from './components/SearchBar/SearchBar';
 
 function App() {
   return (
@@ -33,9 +36,8 @@ function App() {
           <MenuCategories />
         </header>
         <header id="mobile">
-          <TopHead />
-          <Nav />
-          <MenuCategories />
+          <HeaderMobile />
+          <SearchBar />
         </header>
         <Switch>
           <Route path="/" exact component={Home} />
@@ -44,6 +46,7 @@ function App() {
           <Route path="/Sobre_Nos" component={Sobre_Nos} />
           <Route path="/Contato" component={Contato} />
           <Route path="/Lojas" component={Lojas} />
+          <Route path="/Obrigado" component={Obrigado} />
         </Switch>
         <Switch>
           <Route path="/hidraulica" component={Hidraulica} />

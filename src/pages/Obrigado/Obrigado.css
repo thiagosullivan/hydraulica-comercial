@@ -1,0 +1,59 @@
+.thanksPage {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+      "title title"
+      "thankstxt thanksimg";
+  padding: 0 1rem;
+}
+.thanksPage h1 {
+  grid-area: title;
+}
+.thanksPage-txt {
+  grid-area: thankstxt;
+  justify-self: end;
+  align-self: center;
+  margin-right: 3rem;
+  font-size: 1.5rem;
+  color: #333333;
+}
+.thanksPage img {
+  grid-area: thanksimg;
+  max-width: 300px;
+}
+.thanksPage-txt a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background-color: #002A5B;
+  color: #FD8400;
+  width: max-content;
+  padding: .5rem 1.5rem .5rem .5rem;
+  border-radius: 5px;
+}
+.thanksPage-txt a svg {
+  margin-top: 6px;
+}
+.thanksPage-txt p {
+  margin-bottom: 1em;
+}
+
+/*media queries*/
+@media screen and (max-width: 660px){
+  .thanksPage {
+    grid-template-areas:
+        "title"
+        "thankstxt"
+        "thanksimg";
+  }
+  .thanksPage-txt {
+      justify-self: center;
+      margin-right: 0;
+  }
+
+  .thanksPage img {
+      justify-self: center;
+  }
+}

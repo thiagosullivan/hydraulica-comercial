@@ -9,25 +9,6 @@ function SearchBar(){
   const [text, setText] = useState('');
   const [suggestions, setSuggestions] = useState([])
 
-  // useEffect(() => {
-  //   const loadUsers = async()=> {
-  //     const response = await axios.get('https://reqres.in/api/users');
-  //     setUsers(response.data.data)
-  //   }
-  //   loadUsers();
-  // }, [])
-  // const onChangeHandler = (text) => {
-  //   let matches = []
-  //   if (text.length > 0) {
-  //     matches = users.filter(user => {
-  //       const regex = new RegExp(`${text}`, "gi");
-  //       return user.first_name.match(regex)
-  //     })
-  //   }
-  //   console.log('matches', matches)
-  //   setSuggestions(matches)
-  //   setText(text)
-  // }
   useEffect(() => {
     const loadProdutos = async()=> {
       const response = await axios.get('https://thiagosguiase.github.io/hydraulica-comercial-api/Data/api.json');

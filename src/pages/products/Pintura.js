@@ -21,8 +21,7 @@ function Pintura() {
       <p>Para destacar as construções o acabamento é parte importante, mas a pintura é quem ganha toda atenção de longe no ambiente. Trazemos em nossa linha de produtos os melhores rolos para pintura, fita crepe, espátulas, escova de aço e muito mais.</p>
       <div className="pageprod-prod-container">
         <h2>Veja alguns dos nossos destaques</h2>
-        <div className="pageprod-prod-content">
-          
+        <div className="pageprod-prod-content">          
             {pintura
               .filter((product) => product.produto.categoria.descricao === "Pintura")
               .map((produtosFiltrados) => (
