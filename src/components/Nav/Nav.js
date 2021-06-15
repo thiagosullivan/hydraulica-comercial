@@ -24,13 +24,13 @@ function Nav() {
             <div className="nav-contact-info">
               <a href="https://web.whatsapp.com/send?phone=554399269120" target="_blank" rel="noreferrer" className="ft-wp-number">
                 <RiWhatsappFill className="nav-contact-icon" />
-                <p>Administrativo:<br></br>(43) 9926-9120</p>
+                <p>Administrativo:<br></br>(43) 99926-9120</p>
               </a>
             </div>
             <div className="nav-contact-info">
               <a href="https://web.whatsapp.com/send?phone=554391699838" target="_blank" rel="noreferrer" className="ft-wp-number">
                 <RiWhatsappFill className="nav-contact-icon" />
-                <p>Comercial:<br></br>(43) 9169-9838</p>
+                <p>Comercial:<br></br>(43) 99169-9838</p>
               </a>
             </div>   
           </div>

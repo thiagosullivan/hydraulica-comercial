@@ -43,17 +43,3 @@
   margin-top: 1rem;
   font-weight: 500;
 }
-@media screen and (max-width: 600px){
-  .ruler-col {
-    padding: 1rem;
-    max-width: 200px;
-  }
-}
-@media screen and (max-width: 480px){
-  .ruler-icons {
-      flex-direction: column;
-      align-items: center;
-      padding: 1rem;
-  }
-
-}

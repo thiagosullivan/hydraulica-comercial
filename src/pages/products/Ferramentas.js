@@ -38,7 +38,7 @@ function Ferramentas() {
       </div>
       <div className="lojas-container">
         <h2>Confira nosso estoque completo e adquira a partir de um dos nossos e-commerces</h2>
-        <p>Escolha a opção que mais atenda à sua necessidade:</p>
+        <p>Escolha a opção que atenda sua necessidade:</p>
         <div className="lojas-container-links">
         <div className="sou-lojista">
             <a href="https://www.facebook.com/Hydraulica-Comercial-104513741803478/?ref=page_internal"

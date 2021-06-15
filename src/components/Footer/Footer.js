@@ -111,7 +111,7 @@ function Footer() {
             </div>
             <div className="footer-hours">
               <AiOutlineClockCircle />
-              <p>Segunda à sexta: das 8h às 18h<br></br>
+              <p>Segunda a sexta: das 8h às 18h<br></br>
                 Sábado: das 8h às 12h
               </p>
             </div>
@@ -123,17 +123,17 @@ function Footer() {
                 <a href="https://web.whatsapp.com/send?phone=55439926-9120" target="_blank" rel="noreferrer" className="ft-wp-number">
                   <RiWhatsappFill />
                   <p>Administrativo:<br></br>
-                    (43) 9926-9120</p>
+                    (43) 99926-9120</p>
                 </a>
                 <a href="https://web.whatsapp.com/send?phone=554391699838" target="_blank" rel="noreferrer" className="ft-wp-number">
                   <RiWhatsappFill />
                   <p>Comercial:<br></br>
-                    (43) 9169-9838</p>
+                    (43) 99169-9838</p>
                 </a>
               </div>
               <a href="mailto:contato@hydraulicacomercial.com.br" target="_blank" rel="noreferrer" className="ft-email-container">
                 <MdEmail />
-                <p>contato@hydraulicacomercial.com.br</p>
+                <p>contato@hydraulica.com.br</p>
               </a>
             </div>
             <div className="ft-socialmedia">

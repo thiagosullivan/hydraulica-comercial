@@ -15,7 +15,6 @@ function CategoriesSection (){
     <div className="section-categories">
       <h2>A Hydraulica Comercial oferece<br></br>
       diversas categorias de produtos para você</h2>
-      <h4>Abaixo você encontra as principais categorias que fornecemos</h4>
       <div className="section-categories-cards">
         <Link
           style={{ textDecoration: 'none' }}

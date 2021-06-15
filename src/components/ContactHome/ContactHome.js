@@ -13,18 +13,18 @@ function ContactHome() {
         <div className="contact-home-col1">
           <h2>Solicite<br></br>o seu<br></br>orçamento</h2>
           <FcDocument />
-          <p>Sed gravida lectus et ex porta, et tincidunt lorem molestie. Sed eget nibh convallis, tempus purus nec, commodo sapien. Integer id neque dolor</p>
+          <p>Precisa de mais informações ou gostaria de receber nosso contato por e-mai? Preencha o formulário e retornaremos o seu contato.</p>
         </div>
         <div className="contact-home-col2">
           <div className="contact-wp-number">
             <RiWhatsappFill />
-            <p>Falar com o João No WhatsApp:<br></br>
-            (43) 99999-9999</p>
+            <p>Administrativo:<br></br>
+            (43) 99926-9120</p>
           </div>
           <div className="contact-wp-number">
             <RiWhatsappFill />
-            <p>Falar com o João No WhatsApp:<br></br>
-            (43) 99999-9999</p>
+            <p>Comercial:<br></br>
+            (43) 99169-9838</p>
           </div>
           <Link
             className="contact-wp-btn"

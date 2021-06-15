@@ -12,7 +12,7 @@ function Contato() {
         <input className="form-name" type="text" placeholder="Seu Nome" required name="name" />
         <input className="form-email" type="email" placeholder="Seu E-mail" required name="email" />
         <input className="form-phone" type="number" pattern="[0-9]" placeholder="Seu Whatsapp" required name="phone" />
-        <input type="hidden" name="_next" value="http://localhost:3000/obrigado"/>
+        <input type="hidden" name="_next" value="https://hydraulica.com.br/obrigado"/>
         <textarea
             className="form-message"
             name="message"

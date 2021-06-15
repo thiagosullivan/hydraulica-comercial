@@ -14,7 +14,7 @@ function Lojas() {
       <div className="store-option">
         <img src={bannerLojaLojista} alt="Para Lojistas" />
         <p>Nosso compromisso com você é compartilhar know-how de mercado e buscar sempre os melhores produtos com as melhores condições possíveis de preço, qualidade e e agilidade de entrega. Conte sempre conosco para suprir sua necessidade de reposição e atualização do seu mix de produtos.</p>
-        <a href="https://hydraulica.meuspedidos.com.br/entrar" target="_blank" rel="noreferrer nooppener">Acesse</a>
+        <a href="https://hydraulica.meuspedidos.com.br/entrar" target="_blank" rel="noreferrer nooppener">Acesse Aqui</a>
       </div>
       
       <h3 className="lojas-subtitle">
@@ -23,7 +23,7 @@ function Lojas() {
       <div className="store-option">
         <img src={bannerLojaProfissional} alt="Para Profissionais" />
         <p>Conte com a Hydraulica Comercial para ter acesso a produtos importantes do seu dia a dia e garantir a maior qualidade em sua prestação de serviços. Compre em volume e consiga ter grandes marcas com as melhores condições.</p>
-        <a href="http://lojadoprofissional.hydraulica.com.br/" target="_blank" rel="noreferrer nooppener">Acesse</a>
+        <a href="http://lojadoprofissional.hydraulica.com.br/" target="_blank" rel="noreferrer nooppener">Acesse Aqui</a>
       </div>
     </div>
   );

@@ -29,3 +29,8 @@
     display: block;
   }
 }
+@media screen and (max-width: 430px){
+  .pages-title {
+      font-size: 2.5rem;
+  }
+}

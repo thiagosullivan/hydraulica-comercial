@@ -12,7 +12,7 @@ function Obrigado() {
       <h1 className="pagesconfig pages-title">Muito Obrigado!</h1>
       <div className="thanksPage-txt">
         <p>Agradecemos por entrar em contato conosco.<br></br>
-        Retornaremos o mais breve possível</p>
+        Retornaremos o mais breve possível.</p>
         <Link to="./"><RiArrowLeftSLine /> Voltar</Link>
       </div>
       <img src={thanksImg} alt="Obrigado"/>      

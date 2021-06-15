@@ -15,3 +15,13 @@
   flex-flow: wrap;
   margin-top: 3rem;
 }
+
+@media screen and (max-width: 480px){
+  .fornecedores-card {
+    max-width: unset;
+    margin: 1rem;
+  }
+  .fornecedores-page h4 {
+    padding: 0 1rem;
+  }
+}
