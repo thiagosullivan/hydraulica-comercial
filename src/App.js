@@ -12,6 +12,7 @@ import Lojas from './pages/Lojas/Lojas';
 import Obrigado from './pages/Obrigado/Obrigado';
 
 import Hidraulica from './pages/products/Hidraulica';
+import Adesivos from './pages/products/Adesivos';
 import Eletrica from './pages/products/Eletrica';
 import Epi from './pages/products/Epi';
 import Ferragens from './pages/products/Ferragens';
@@ -50,6 +51,7 @@ function App() {
         </Switch>
         <Switch>
           <Route path="/hidraulica" component={Hidraulica} />
+          <Route path="/Adesivos" component={Adesivos} />
           <Route path="/eletrica" component={Eletrica} />
           <Route path="/epi" component={Epi} />
           <Route path="/ferragens" component={Ferragens} />

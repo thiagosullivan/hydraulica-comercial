@@ -55,3 +55,8 @@
         text-align: center;
     }
 }
+@media screen and (max-width: 430px){
+  .about-section-home span {
+      font-size: 50px;
+  }
+}
