@@ -40,7 +40,7 @@ function Ferragens() {
         <p>Escolha a opção que atenda sua necessidade:</p>
         <div className="lojas-container-links">
         <div className="sou-lojista">
-            <a href="https://www.facebook.com/Hydraulica-Comercial-104513741803478/?ref=page_internal"
+            <a href="https://hydraulica.meuspedidos.com.br"
               target="_blank"
               rel="noreferrer"
             >
@@ -49,7 +49,7 @@ function Ferragens() {
             <MdStore />
           </div>
           <div className="sou-profissional">
-            <a href="https://www.facebook.com/Hydraulica-Comercial-104513741803478/?ref=page_internal"
+            <a href="https://lojadoprofissional.hydraulica.com.br"
               target="_blank"
               rel="noreferrer"
             >
